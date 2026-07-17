@@ -1,0 +1,48 @@
+#portfolio{
+    background:black;
+    border-radius:20px;
+    padding:40px;
+}
+
+
+/* Tarjetas con relieve */
+
+.proyecto-card{
+
+    background:#111;
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.8),
+    inset 0 0 15px rgba(255,255,255,0.05);
+
+    transition:0.3s;
+
+}
+
+
+.proyecto-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,0.9);
+
+}
+
+
+.proyecto-card img{
+
+    height:220px;
+    object-fit:cover;
+
+}
+
+
+.card-title{
+
+    font-size:22px;
+
+}
