@@ -195,40 +195,51 @@ Soy estudiante. Me interesa el desarrollo web y aprender nuevas tecnologías par
 
 <section id="contacto">
 
-<div class="container">
+    <div class="container">
 
-<h2>
-Contacto
-</h2>
-
-
-<form>
+        <h2 class="text-center mb-4">
+            Contacto
+        </h2>
 
 
-<input type="text" 
-class="form-control mb-3" 
-placeholder="Nombre">
+        <form action="https://formspree.io/f/mdaqejwg" method="POST">
+
+            <input 
+            type="text" 
+            name="nombre"
+            class="form-control mb-3" 
+            placeholder="Nombre"
+            required>
 
 
-<input type="email" 
-class="form-control mb-3" 
-placeholder="Email">
+            <input 
+            type="email" 
+            name="email"
+            class="form-control mb-3" 
+            placeholder="Email"
+            required>
 
 
-<textarea 
-class="form-control mb-3"
-placeholder="Mensaje"></textarea>
+            <textarea 
+            name="mensaje"
+            class="form-control mb-3"
+            rows="5"
+            placeholder="Mensaje"
+            required></textarea>
 
 
-<button class="btn btn-primary">
-Enviar
-</button>
+            <button 
+            type="submit"
+            class="btn btn-primary">
+                Enviar
+            </button>
 
 
-</form>
+        </form>
 
+    </div>
 
-</div>
+</section>
 
 </section>
 
